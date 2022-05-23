@@ -10,7 +10,7 @@ print("BANCO ULTRA")
 print(p)
 
 #FUNÇÕES
-def saque(): #PROBLEMA: VALORES ALTOS NÃO SÃO EFETUADOS NO SAQUE(EX: 900)
+def saque():
     global saldo1
     saque1 = float(input("VALOR DO SAQUE: "))
     
