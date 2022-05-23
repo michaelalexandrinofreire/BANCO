@@ -18,10 +18,12 @@ def saque(): #PROBLEMA: VALORES ALTOS NÃO SÃO EFETUADOS NO SAQUE(EX: 900)
         print("VALOR MÁXIMO PARA SAQUE DE: {:.2f} ".format(saldo1))
         return main()
     
-    saldo1 -= saque1
     if saque1 <= saldo1:
+        saldo1 -= saque1
         print("SAQUE REALIZADO!")
         return menuSaque()
+    
+    
 
 def saldo():
     print("SEU SALDO É DE: {:.2f} ".format(saldo1))
