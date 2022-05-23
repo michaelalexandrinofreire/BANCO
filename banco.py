@@ -31,7 +31,7 @@ def saldo():
     return menuSaldo()
 
 def menuSaque():
-    a = int(input("PARA CONSULTAR SEU NOVO SALDO: DIGITE 1 \n" "PARA VOLTAR AO INÍCIO: DIGITE 2 \n"))
+    a = int(input("PARA CONSULTAR SEU NOVO SALDO: DIGITE 1 \n" "PARA VOLTAR AO MENU: DIGITE 2 \n"))
     print(p)
     if a == 1:
         print("SEU NOVO SALDO É DE:", saldo1) 
@@ -45,7 +45,7 @@ def menuSaque():
 
 def menuSaldo():
     for i in range(1):
-        a = int(input("PARA VOLTAR AO INÍCIO: DIGITE 1 \n" "PARA ENCERRAR O PROGRAMA: DIGITE 2 \n"))
+        a = int(input("PARA VOLTAR AO MENU: DIGITE 1 \n" "PARA ENCERRAR O PROGRAMA: DIGITE 2 \n"))
         print(p)
         if a == 1:
             return chamaFuncao()
@@ -62,7 +62,7 @@ def chamaFuncao():
     if b == 2:
         saque()
     else:
-        print("Número inválido!")
+        print("NÚMERO INVÁLIDO!")
         return chamaFuncao()
         
 #CHAMANDO AS FUNÇÕES
