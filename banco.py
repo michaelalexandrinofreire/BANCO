@@ -24,10 +24,6 @@ def saque():
         saldo1 -= saque1
         print("SAQUE REALIZADO!")
         return menuSaque()
-    else:
-        print("CARACTERE INVÁLIDO.")
-        print(p)
-        return main()
 
 def saldo():
     print("SEU SALDO É DE: {:.2f}R$".format(saldo1))
