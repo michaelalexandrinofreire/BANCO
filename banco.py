@@ -1,7 +1,6 @@
 #BANCO - CONTA CORRENTE E SAQUE
 from ast import Break
-import time
-from unicodedata import numeric 
+import time 
 
 #INÍCIO
 p = "-" * 20
@@ -19,12 +18,12 @@ def saque():
         print("VALOR MÁXIMO PARA SAQUE DE: {:.2f}R$".format(saldo1))
         print(p)
         return main()
-    
+            
     if saque1 <= saldo1:
         saldo1 -= saque1
         print("SAQUE REALIZADO!")
-        return menuSaque()
-
+        return menuSaque()  
+         
 def saldo():
     print("SEU SALDO É DE: {:.2f}R$".format(saldo1))
     print(p)
